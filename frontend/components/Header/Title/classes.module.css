@@ -1,0 +1,46 @@
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title img{
+    width: 200px;
+    height: auto;
+}
+.Title input{
+    border: 3px solid #87DCBD;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    border-right: none;
+    outline: none;
+}
+.Title button{
+    padding: 10px;
+    background-color: #FFF;
+    border: 3px solid #87DCBD;
+    border-radius: 0 30px 30px 0;
+    transition: all linear 0.3s;
+}
+.Title button:hover{
+    background-color: #87DCBD;
+}
+
+.Items i{
+    font-size: 30px;
+    color: #87DCBD;
+    margin: 0 10px;
+    transition: all linear 0.3s;
+}
+.Items i:hover{
+    color: #438A68;
+}
+
+@media (max-width: 660px){
+    .Title{
+        flex-direction: column;
+    }
+    .Items{
+        margin: 20px;
+    }
+}
