@@ -33,7 +33,7 @@ const navigation = (props) => {
     return(
         <nav className={classes.Navigation}>
             <a href="#" className={classes.MenuToggler}
-                onClick={MenuHideHandler}><i class="fas fa-bars"></i>
+                onClick={MenuHideHandler}><i className="fas fa-bars"></i>
             </a>
             <div className={classes.MenuHide}
                 ref={refMenuHide}>

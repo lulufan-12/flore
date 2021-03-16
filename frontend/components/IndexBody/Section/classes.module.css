@@ -1,0 +1,15 @@
+.Section{
+    background-color: aquamarine;
+    padding: 0 20px;
+}
+.SectionTitle{
+    text-align: center;
+    color: #666;
+    font-size: 40px;
+    font-weight: 400;
+}
+.CardsHolder{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}

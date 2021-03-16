@@ -4,7 +4,9 @@ import classes from './classes.module.css'
 const title = (props) => {
     return(
         <div className={classes.Title}>
-            <img src="assets/logo.jpg" alt="Flore Prata Logo" />
+            <a href="#">
+                <img src="assets/logo.jpg" alt="Flore Prata Logo" />
+            </a>
             <form>
                 <input type="search" />
                 <button><i className="fas fa-search"></i></button>

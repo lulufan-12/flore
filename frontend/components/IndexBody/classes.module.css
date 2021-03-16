@@ -1,10 +1,41 @@
 .Main{
     margin: auto;
+    padding: 20px;
     width: 1200px;
-
-    
-    
-    
-    
-    background-color: aqua;
+}
+.Subtitle{
+    font-family: Allura;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.SubtitleEmphasis{
+    color: #4c9177;
+    font-family: Allura;
+}
+.Img{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.Section{
+    background-color: aquamarine;
+}
+.SectionTitle{
+    text-align: center;
+    color: #666;
+    font-size: 40px;
+    font-weight: 400;
+}
+@media (max-width: 1200px){
+    .Main{
+        width: 90%;
+    }
+}
+@media (max-width: 825px){
+    .Main{
+        width: 100%;
+    }
 }
