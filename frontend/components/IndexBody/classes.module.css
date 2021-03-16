@@ -20,15 +20,6 @@
     height: auto;
     margin: 20px 0;
 }
-.Section{
-    background-color: aquamarine;
-}
-.SectionTitle{
-    text-align: center;
-    color: #666;
-    font-size: 40px;
-    font-weight: 400;
-}
 @media (max-width: 1200px){
     .Main{
         width: 90%;
