@@ -1,0 +1,46 @@
+.Card{
+    max-width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #666;
+    border-radius: 20px;
+    text-align: center;
+    color: #666;
+}
+.Card img{
+    width: 100%;
+    height: auto;
+}
+.Card h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Card h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #D0869D;
+}
+.Card h6{
+    font-weight: bold;
+}
+.Card button{
+    outline: none;
+    background-color: #D0869D;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFF;
+    margin: 0 10px;
+    transition: all linear 0.3s;
+}
+.Card button:hover{
+    background-color: #af617a;
+}
+.Card i{
+    font-size: 26px;
+    color: #D0869D;
+    transition: all linear 0.3s;
+}
+.Card i:hover{
+    color: #af617a;
+}
