@@ -1,0 +1,15 @@
+.Item{
+    position: relative;
+}
+.Content{
+    position: absolute;
+}
+.Title{
+    font-size: 30px;
+    color: #87DCBD;
+    margin: 0 10px;
+    transition: all linear 0.3s;
+}
+.Title:hover{
+    color: #438A68;
+}

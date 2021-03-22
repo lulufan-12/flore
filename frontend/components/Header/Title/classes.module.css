@@ -26,16 +26,6 @@
     background-color: #87DCBD;
 }
 
-.Items i{
-    font-size: 30px;
-    color: #87DCBD;
-    margin: 0 10px;
-    transition: all linear 0.3s;
-}
-.Items i:hover{
-    color: #438A68;
-}
-
 @media (max-width: 660px){
     .Title{
         flex-direction: column;

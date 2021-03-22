@@ -1,0 +1,16 @@
+.Items{
+    display: flex;
+}
+.Menu1{
+    width: 150px;
+    user-select: none;
+}
+.Menu1 a{
+    display: block;
+    background-color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+}
+.Menu1 a:hover{
+    background-color: #AAA;
+}
