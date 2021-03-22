@@ -6,7 +6,7 @@ import classes from './classes.module.css'
 const title = () => {
     const [menu1_visible, setMenu1Visible] = useState(false)
     const [menu2_visible, setMenu2Visible] = useState(false)
-    const [menu3_visible, setMenu3Visible] = useState(true)
+    const [menu3_visible, setMenu3Visible] = useState(false)
     const [session, loading] = useSession()
     let menu1
     if(!session) {
