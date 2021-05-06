@@ -3,18 +3,6 @@
     padding: 20px;
     width: 1200px;
 }
-.Subtitle{
-    font-family: Allura;
-    font-style: italic;
-    font-size: 50px;
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-}
-.SubtitleEmphasis{
-    color: #4c9177;
-    font-family: Allura;
-}
 .Img{
     width: 100%;
     height: auto;

@@ -1,0 +1,7 @@
+.SearchInput{
+    border: 3px solid #87DCBD;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    border-right: none;
+    outline: none;
+}

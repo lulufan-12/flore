@@ -10,7 +10,7 @@ const title = (props) => {
             </a>
             <form>
                 <input type="search" />
-                <button><i className="fas fa-search"></i></button>
+                <button className={classes.SearchButton}><i className="fas fa-search"></i></button>
             </form>
             <IconMenu />
         </div>

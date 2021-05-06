@@ -1,0 +1,41 @@
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding :20px;   
+    background-color: #87DCBD;
+}
+
+.Navigation a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.Navigation a:hover{
+    background-color: #438A68;
+}
+
+.MenuToggler{
+    display: none;
+}
+
+@media (max-width: 840px){
+    .Navigation{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Navigation a{
+        display: flex;
+    }
+    .MenuToggler{
+        display: block;
+    }
+    .MenuHide{
+        display: none;
+    }
+
+}
